@@ -4,8 +4,16 @@
 3. Detect non numeric input and throw an error with message "Invalid Input"
 */
 
+
 const addition = (...numbers) => {
-  // all your code
+    if (numbers.length === 0 || numbers.some(isNaN) || numbers.length === -1) {
+        throw new Error("Invalid Input");
+    } else {
+        return numbers.reduce((a, b) => {
+            return a + b;
+        });
+    }
 };
+
 
 module.exports = addition;

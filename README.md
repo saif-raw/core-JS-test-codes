@@ -46,3 +46,4 @@ npm run submit
 ```
 
 8. Candidate can submit the solution by submitting the repository using the [link](https://forms.gle/jJhsRHz18e57VbdT8). Note no commits should be pushed to the repository once the solution is submitted 
+# core-JS-test-codes
